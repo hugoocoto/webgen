@@ -33,7 +33,8 @@
 #define description(s) meta("description", s)
 
 #define ul(content, ...) tag(ul, content, __VA_ARGS__)
-#define li(text, href) "<li><a href=" #href ">" text "</a></li>"
+#define liref(text, href, ...) "<li" __VA_OPT__(" " asstr(__VA_ARGS__)) "><a href=" #href ">" text "</a></li>"
+#define li(text, ...) "<li" __VA_OPT__(" " asstr(__VA_ARGS__)) ">" text "</li>"
 
 #define img(alt, src, ...) "<img" __VA_OPT__(" " asstr(__VA_ARGS__) " ") "src=" src " alt=" alt ">"
 

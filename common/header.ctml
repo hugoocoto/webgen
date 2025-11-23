@@ -1,6 +1,6 @@
 div(
   a(
-    h1("Portfolio"),
+    h1("Hugo's webpage"),
     class="no-decoration" ,
     href="https://hugocoto.com/"
   )

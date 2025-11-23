@@ -1,0 +1,15 @@
+DOCTYPE(html)
+html("%s" 
+  body(
+    div("%s", id="header")
+    div(
+      "%s" /* Index */ 
+      div(
+        /* >> Write content from here << */
+        /* >> To here << */
+        , id="content")
+      , id="main"
+    )
+  ), 
+  lang="en", class=" pbesedkt idc0_350"
+)

@@ -1,7 +1,7 @@
-SRC := $(wildcard *.ctml *.html)
+SRC := $(wildcard common/*.ctml src/*.ctml)
 
-run: webgen
-	./webgen
+run: wgen
+	./wgen
 
-webgen: webgen.c $(SRC)
-	gcc webgen.c -o webgen
+wgen: webgen/webgen.c $(SRC) webgen/build.c
+	gcc webgen/webgen.c -o wgen -Icommon -Isrc

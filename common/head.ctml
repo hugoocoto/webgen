@@ -1,0 +1,9 @@
+head(
+  "<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">"
+  "<meta charset=\"utf-8\">"
+  meta("viewport","width=device-width,initial-scale=1")
+  description("Hugo Coto's webpage")
+  title("Hugo Coto's webpage ")
+  style("style.css")
+  icon("favicon.png")
+)

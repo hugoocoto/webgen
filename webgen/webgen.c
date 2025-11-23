@@ -14,5 +14,9 @@ main()
 /*   */ #define FILENAME "mainpage.ctml"
 /*   */ #define OUTNAME "index.html"
 /*   */ #include "build.c"
+
+/*   */ #define FILENAME "library.ctml"
+/*   */ #define OUTNAME "library.html"
+/*   */ #include "build.c"
         return 0;
 }

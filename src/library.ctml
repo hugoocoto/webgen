@@ -1,0 +1,44 @@
+DOCTYPE(html)
+html("%s" 
+  body(
+    div("%s", id="header")
+    div(
+      "%s" /* Index */ 
+      /* >> Write from here << */
+      div(
+        h2("Library")
+        p("This is the place where I talk about the books that I have.")
+
+        h3("Programming books")
+        p("I really like reading about operating systems and low-level stuff."
+        "I love to know how things work under the hood. "
+        , class="info")
+        ul(
+          li("Modern Operating Systems. Andrew S. Tanenbaum")
+          li("Operating Systems: Design and Implementation. Andrew S.Tanenbaum")
+          li("Crafting Interpreters. Robert Nystrom")
+          li("Operating Systems: Three Easy Pieces. Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau")
+          li("I read the GNU C Reference Manual (on a plane).")
+        )
+
+        h3("Strange books I like")
+        ul(
+          li("Flatland: A Romance of Many Dimensions. Edwin Abbott")
+        )
+
+        h3("Fiction / Adventures")
+        p("I haven’t read this kind of book in a while, but I’ll list here the ones I enjoyed the most.<br>"
+        , class="info")
+        ul(
+          li("I Am Number Four. Pittacus Lore (and all Lorien Legacies books)")
+          li("Percy Jackson. Rick Riordan (and all Riordan books)")
+          li("Harry Potter. J. K. Rowling")
+          li("The Lord of the Rings. J. R. R. Tolkien")
+        )
+      , id="content")
+      /* >> To here << */
+      , id="main"
+    )
+  ), 
+  lang="en", class=" pbesedkt idc0_350"
+)
