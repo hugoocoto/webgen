@@ -1,6 +1,6 @@
 # hugocoto.com
 Webpage generated from ctml. 
-[hugocoto.com](hugocoto.com)
+[hugocoto.com](https://hugocoto.com)
 
 # Web Gen
 
