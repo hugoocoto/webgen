@@ -20,6 +20,11 @@ html(
           "- I build unstable, useless tools.<br>"
         , class="info")
 
+        h4("You can support myself by donations")
+        ul(
+          liref("Github Sponsors", "https://github.com/sponsors/hugoocoto")
+        )
+
         h3("I'm not that strong")
         p(
           "Image aspect ratio has been modified a little."
