@@ -20,9 +20,13 @@ html(
           "- I build unstable, useless tools.<br>"
         , class="info")
 
-        h4("You can support myself by donations")
+        h4("You can support myself")
         ul(
           liref("Github Sponsors", "https://github.com/sponsors/hugoocoto")
+        )
+        p(
+        "I know that you're not here because you want to give me money, but if "
+        "so, feel free to pay me as many coffees as you want." 
         )
 
         h3("I'm not that strong")
