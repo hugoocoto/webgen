@@ -21,12 +21,12 @@ html(
         , class="info")
 
         h4("You can support myself")
-        ul(
-          liref("Github Sponsors", "https://github.com/sponsors/hugoocoto")
-        )
         p(
         "I know that you're not here because you want to give me money, but if "
         "so, feel free to pay me as many coffees as you want." 
+        )
+        ul(
+          liref("Github Sponsors", "https://github.com/sponsors/hugoocoto")
         )
 
         h3("I'm not that strong")
